@@ -7,8 +7,8 @@ function exibirTextoNaTela(tag, texto) {
 let { numeroSecreto, nMax } = gerarNumeroSecreto(); // Desestrutura o objeto retornado
 console.log("Número secreto gerado:", numeroSecreto);
 function telaInicial() {
-    exibirTextoNaTela('h1', 'Number`s Game');
-    exibirTextoNaTela('p', `Adivinhe um Número entre 1 e ${nMax}`);
+    exibirTextoNaTela('h1', 'Number Game');
+    exibirTextoNaTela('p', `Adivinhe o Número entre 1 e ${nMax}`);
 };
 
 function cleanC() {
